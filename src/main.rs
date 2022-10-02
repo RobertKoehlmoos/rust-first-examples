@@ -9,7 +9,9 @@
 // mod loops;
 // mod functions;
 // mod pionter_ref;
-mod structs;
+// mod structs;
+// mod enums;
+mod cli;
 
 fn main() {
     // println!("Hello, world!");
@@ -23,5 +25,7 @@ fn main() {
     // loops::run();
     // functions::run();
     // pionter_ref::run();
-    structs::run();
+    // structs::run();
+    // enums::run();
+    cli::run();
 }
